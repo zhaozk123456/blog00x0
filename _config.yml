@@ -5,7 +5,7 @@ welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank"
 description: Vno111 Jekyll is a port of my Ghost theme vno.
 creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://vno.onevcat.com"
+url: "https://zhaozk123456.github.io"
 
 permalink: /:year/:month/:title/
 # 必须以斜杠开始，且必须是您的仓库名称
