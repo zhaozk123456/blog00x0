@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    // 强制浏览器在404时跳转到正确的路径，让主题的JS处理路由
+    var path = location.pathname;
+    var hash = location.hash;
+    
+    // 从 Jekyll 变量获取 baseurl
+    var baseUrl = "{{ site.baseurl }}"; 
+    
+    // 如果 baseurl 是 '/', 则设置为空字符串
+    if (baseUrl === '/'){ baseUrl = ''; } 
+    
+    if (hash) {
+      // 如果 URL 里有 # 符号，就重定向到主页并保留 #
+      window.location.replace(baseUrl + '/' + hash);
+    } else {
+      // 否则，重定向到主页根路径
+      window.location.replace(baseUrl + '/');
+    }
+  </script>
+</head>
+<body>
+  Loading...
+</body>
+</html>
