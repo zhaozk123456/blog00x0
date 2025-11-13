@@ -8,7 +8,8 @@ creator: <a href="http://onev.cat">@onevcat</a>
 url: "http://vno.onevcat.com"
 
 permalink: /:year/:month/:title/
-
+# 必须以斜杠开始，且必须是您的仓库名称
+baseurl: "/blog00x0"
 # Format
 highlighter: rouge
 
