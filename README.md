@@ -6,7 +6,7 @@
 
 See [Vno - Jekyll](http://vno.onevcat.com) site and [my blog](http://onevcat.com).
 
-You can also find some instruction as well as other sites using Vno theme in [this page](http://vno.onevcat.com/2016/02/hello-world-vno/).
+第一次fork [this page](http://vno.onevcat.com/2016/02/hello-world-vno/).
 
 ## Licence
 
